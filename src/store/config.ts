@@ -59,20 +59,10 @@ export const networks: Networks = {
     srmFaucet: null,
     msrmFaucet: null,
 
-    registryProgramId: new PublicKey(
-      '65aMavjMw3EhmWKVCkGn1Uj2SqZ3XY4coJhYM1BVJTHw',
-    ),
-    lockupProgramId: new PublicKey(
-      'bRGMWZz4mzJ8NG8csn5QNTbJDv2973QSvppbfcAboje',
-    ),
-    registrars: {
-      token1: new PublicKey('EqbwcuvPWLZ5fav58HrieHmJEqTm6RPu5bmn5bBQJ3mu'),
-      token2: new PublicKey('2rDWuS6yVFQ3jYx1nQq7gs3HgzWLJcUwm9sTUBWuXuyK'),
-    },
-    mints: {
-      token1: new PublicKey('Ep6ASaHQ4gKiN3gWNRKYttZEQ7b82seMk9HWc5JNBJZP'),
-      token2: new PublicKey('5vWxJthWbCFuNSZj1qcP9WoU8E6UG3DUfeAoPvYoN8PQ'),
-    },
+    registryProgramId: new PublicKey('GKGwQuHxbsUTSPWCiu6BuZ1Df48BUmueoAeDUbVuS9uH'),
+    lockupProgramId: new PublicKey('DDbpojmDtMzMRWgVyt3JGwEMytPLA1VgD2yxYMmoehFK'),
+    registrars: { token1: new PublicKey('9CsFUviWzC78UfXLpmxup38K7i8Pn4EnUyZQvnZNTtbU') },
+    mints: { token1: new PublicKey('NsGtZjr3vgVq8JTmqJZ7vQxCURuUqKU2NSN5QswLAg2') },
   },
 
   // Fill in with your local cluster addresses.
@@ -85,19 +75,10 @@ export const networks: Networks = {
     srmFaucet: null,
     msrmFaucet: null,
 
-    registryProgramId: new PublicKey(
-      'A3ukM9swAsTqVC6g5Zy9FsWXofe5f2JhXMEfzenNf9Q7',
-    ),
-    lockupProgramId: new PublicKey(
-      '2z65xTKJDM4iJBVz5aXtNrWfQvKGgNJvnqY1GL2mkimu',
-    ),
-    registrars: {
-      token1: new PublicKey('Fwi5pie2VgWTDUSRNkca1HdFCke5r3v3mY83JbxtC3CJ'),
-      token2: new PublicKey('9kCGBWgHzGGChvmAsmu5jrXwEShZfLxKRTmKdxEpFUBr'),
-    },
-    mints: {
-      token1: new PublicKey('2aE1pietadYMeDtdqKayS4SVo9W4xtC3U7SN4iGWCVcX'),
-      token2: new PublicKey('Cgan7PWyBH6Z7JNA6f9kDYgwBMZBxRexpdd29PJgnqah'),
-    },
+    registryProgramId: new PublicKey('4BRDqm1fLJxD2LPxn3Np6gC8inrrnm8PaAcq9KaJvMDQ'),
+    lockupProgramId: new PublicKey('D1wyd4S1MN4fNM7M85pZUwp7kK84h4H5tjnVJFgeVtgZ'),
+    registrars: { token: new PublicKey('VaMgx9rBVUGvfXn6KzpTwtEL4ne2KSbiVVx9KipbbqA') },
+    mints: { token: new PublicKey('3LKWCipp5RhbaaXkS9FAY9p4x6MTmUgAo8YaWaQZkUHh') },
+
   },
 };
