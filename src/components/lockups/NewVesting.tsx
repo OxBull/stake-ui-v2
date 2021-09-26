@@ -185,7 +185,7 @@ function NewVestingDialog(props: NewVestingDialogProps) {
         action: <ViewTransactionOnExplorerButton signature={tx} />,
       });
       onClose();
-    } catch (err) {
+    } catch (err:any) {
       enqueueSnackbar(`Error creating vesting account: ${err.toString()}`, {
         variant: 'error',
       });
